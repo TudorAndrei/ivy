@@ -28,7 +28,6 @@ Array builtins
    array_builtins/builtin_rsub.rst
    array_builtins/builtin_mul.rst
    array_builtins/builtin_rmul.rst
-   array_builtins/builtin_matmul.rst
    array_builtins/builtin_truediv.rst
    array_builtins/builtin_rtruediv.rst
    array_builtins/builtin_floordiv.rst

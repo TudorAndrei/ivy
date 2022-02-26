@@ -1479,24 +1479,6 @@ Default is to divide into as many 1-dimensional arrays as the axis dimension.</p
 </dd></dl>
 
 <dl class="py function">
-<dt id="ivy.functional.ivy.core.general.squeeze">
-<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">squeeze</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">axis</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>int<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em><span class="sig-paren">)</span> &#x2192; Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span><a class="reference internal" href="../../../_modules/ivy/functional/ivy/core/general.html#squeeze"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.core.general.squeeze" title="Permalink to this definition">¶</a></dt>
-<dd><p>Removes a single-dimensional entry from the shape of an array.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>x</strong> (<em>array</em>) – Input data.</p></li>
-<li><p><strong>axis</strong> (<em>int</em><em>, </em><em>optional</em>) – Index for one of the single-dimensional entries in the shape.
-If an axis is selected with shape entry greater than one, an error is raised.</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>The input array, but with all (axis=None) or one (axis is int) of the dimensions of length 1 removed.</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
 <dt id="ivy.functional.ivy.core.general.stable_divide">
 <code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">stable_divide</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">numerator</span><span class="p">:</span> <span class="n">Any</span></em>, <em class="sig-param"><span class="n">denominator</span><span class="p">:</span> <span class="n">Any</span></em>, <em class="sig-param"><span class="n">min_denominator</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>float<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em><span class="sig-paren">)</span> &#x2192; Any<a class="reference internal" href="../../../_modules/ivy/functional/ivy/core/general.html#stable_divide"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.core.general.stable_divide" title="Permalink to this definition">¶</a></dt>
 <dd><p>Divide the numerator by the denominator, with min denominator added to the denominator for numerical stability.</p>
@@ -1816,7 +1798,6 @@ If not given, then the type of the original array is used.</p></li>
 <li class="toctree-l1"><a class="reference internal" href="general/has_nans.html">has_nans</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/reshape.html">reshape</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/broadcast_to.html">broadcast_to</a></li>
-<li class="toctree-l1"><a class="reference internal" href="general/squeeze.html">squeeze</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/zeros_like.html">zeros_like</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/ones.html">ones</a></li>
 <li class="toctree-l1"><a class="reference internal" href="general/ones_like.html">ones_like</a></li>
