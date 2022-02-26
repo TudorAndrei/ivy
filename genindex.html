@@ -88,6 +88,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Array</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="array/array_api.html">Array api</a></li>
 <li class="toctree-l1"><a class="reference internal" href="array/conversions.html">Conversions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="array/device.html">Device</a></li>
 <li class="toctree-l1"><a class="reference internal" href="array/general.html">General</a></li>
@@ -238,6 +239,8 @@
 </li>
         <li><a href="framework_handler.html#ivy.framework_handler.ContextManager.__init__">(ivy.framework_handler.ContextManager method)</a>
 </li>
+        <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.Finfo.__init__">(ivy.functional.backends.numpy.array_api.data_type_functions.Finfo method)</a>
+</li>
         <li><a href="functional/backends/numpy/core/device.html#ivy.functional.backends.numpy.core.device.Profiler.__init__">(ivy.functional.backends.numpy.core.device.Profiler method)</a>, <a href="functional/backends/numpy/core/device/Profiler.html#ivy.functional.backends.numpy.core.device.Profiler.__init__">[1]</a>
 </li>
         <li><a href="functional/ivy/core/device.html#ivy.functional.ivy.core.device.DefaultDevice.__init__">(ivy.functional.ivy.core.device.DefaultDevice method)</a>
@@ -355,7 +358,7 @@
 </li>
       <li><a href="graph_compiler/graph.html#ivy.graph_compiler.graph.Graph.add_param">add_param() (ivy.graph_compiler.graph.Graph method)</a>
 </li>
-      <li><a href="functional/ivy/core/reductions.html#ivy.functional.ivy.core.reductions.all">all() (in module ivy.functional.ivy.core.reductions)</a>, <a href="functional/ivy/core/reductions/all.html#ivy.functional.ivy.core.reductions.all">[1]</a>
+      <li><a href="functional/ivy/array_api/utility_functions.html#ivy.functional.ivy.array_api.utility_functions.all">all() (in module ivy.functional.ivy.array_api.utility_functions)</a>, <a href="functional/ivy/array_api/utility_functions/all.html#ivy.functional.ivy.array_api.utility_functions.all">[1]</a>
 </li>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.all_equal">all_equal() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/all_equal.html#ivy.functional.ivy.core.general.all_equal">[1]</a>
 </li>
@@ -366,6 +369,8 @@
       <li><a href="functional/ivy/core/nest.html#ivy.functional.ivy.core.nest.all_nested_indices">all_nested_indices() (in module ivy.functional.ivy.core.nest)</a>, <a href="functional/ivy/core/nest/all_nested_indices.html#ivy.functional.ivy.core.nest.all_nested_indices">[1]</a>
 </li>
       <li><a href="container.html#ivy.container.Container.all_true">all_true() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.all_true">[1]</a>
+</li>
+      <li><a href="functional/ivy/array_api/utility_functions.html#ivy.functional.ivy.array_api.utility_functions.any">any() (in module ivy.functional.ivy.array_api.utility_functions)</a>, <a href="functional/ivy/array_api/utility_functions/any.html#ivy.functional.ivy.array_api.utility_functions.any">[1]</a>
 </li>
       <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.arange">arange() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/arange.html#ivy.functional.backends.numpy.core.general.arange">[1]</a>
 
@@ -391,12 +396,8 @@
 </li>
       <li><a href="array/conversions.html#ivy.array.conversions.args_to_native">args_to_native() (in module ivy.array.conversions)</a>, <a href="array/conversions/args_to_native.html#ivy.array.conversions.args_to_native">[1]</a>
 </li>
-      <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.argsort">argsort() (in module ivy.functional.backends.numpy.core.general)</a>
-
-      <ul>
-        <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.argsort">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/argsort.html#ivy.functional.ivy.core.general.argsort">[1]</a>
+      <li><a href="functional/ivy/array_api/sorting_functions.html#ivy.functional.ivy.array_api.sorting_functions.argsort">argsort() (in module ivy.functional.ivy.array_api.sorting_functions)</a>, <a href="functional/ivy/array_api/sorting_functions/argsort.html#ivy.functional.ivy.array_api.sorting_functions.argsort">[1]</a>
 </li>
-      </ul></li>
       <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.array">array() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/array.html#ivy.functional.backends.numpy.core.general.array">[1]</a>
 
       <ul>
@@ -409,14 +410,30 @@
 </li>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.arrays_equal">arrays_equal() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/arrays_equal.html#ivy.functional.ivy.core.general.arrays_equal">[1]</a>
 </li>
+      <li><a href="array/array_api.html#ivy.array.array_api.ArrayWithArrayAPI">ArrayWithArrayAPI (class in ivy.array.array_api)</a>
+</li>
+      <li><a href="array/array_api/arithmetic_operators.html#ivy.array.array_api.arithmetic_operators.ArrayWithArrayAPIArithmeticOperators">ArrayWithArrayAPIArithmeticOperators (class in ivy.array.array_api.arithmetic_operators)</a>, <a href="array/array_api/arithmetic_operators/ArrayWithArrayAPIArithmeticOperators.html#ivy.array.array_api.arithmetic_operators.ArrayWithArrayAPIArithmeticOperators">[1]</a>
+</li>
+      <li><a href="array/array_api/array_operators.html#ivy.array.array_api.array_operators.ArrayWithArrayAPIArrayOperators">ArrayWithArrayAPIArrayOperators (class in ivy.array.array_api.array_operators)</a>, <a href="array/array_api/array_operators/ArrayWithArrayAPIArrayOperators.html#ivy.array.array_api.array_operators.ArrayWithArrayAPIArrayOperators">[1]</a>
+</li>
+      <li><a href="array/array_api/attributes.html#ivy.array.array_api.attributes.ArrayWithArrayAPIAttributes">ArrayWithArrayAPIAttributes (class in ivy.array.array_api.attributes)</a>, <a href="array/array_api/attributes/ArrayWithArrayAPIAttributes.html#ivy.array.array_api.attributes.ArrayWithArrayAPIAttributes">[1]</a>
+</li>
+      <li><a href="array/array_api/bitwise_operators.html#ivy.array.array_api.bitwise_operators.ArrayWithArrayAPIBitwiseOperators">ArrayWithArrayAPIBitwiseOperators (class in ivy.array.array_api.bitwise_operators)</a>, <a href="array/array_api/bitwise_operators/ArrayWithArrayAPIBitwiseOperators.html#ivy.array.array_api.bitwise_operators.ArrayWithArrayAPIBitwiseOperators">[1]</a>
+</li>
+      <li><a href="array/array_api/comparison_operators.html#ivy.array.array_api.comparison_operators.ArrayWithArrayAPIComparisonOperators">ArrayWithArrayAPIComparisonOperators (class in ivy.array.array_api.comparison_operators)</a>, <a href="array/array_api/comparison_operators/ArrayWithArrayAPIComparisonOperators.html#ivy.array.array_api.comparison_operators.ArrayWithArrayAPIComparisonOperators">[1]</a>
+</li>
+      <li><a href="array/array_api/inplace_operators.html#ivy.array.array_api.inplace_operators.ArrayWithArrayAPIInplaceOperators">ArrayWithArrayAPIInplaceOperators (class in ivy.array.array_api.inplace_operators)</a>, <a href="array/array_api/inplace_operators/ArrayWithArrayAPIInplaceOperators.html#ivy.array.array_api.inplace_operators.ArrayWithArrayAPIInplaceOperators">[1]</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="array/array_api/reflected_operators.html#ivy.array.array_api.reflected_operators.ArrayWithArrayAPIReflectedOperators">ArrayWithArrayAPIReflectedOperators (class in ivy.array.array_api.reflected_operators)</a>, <a href="array/array_api/reflected_operators/ArrayWithArrayAPIReflectedOperators.html#ivy.array.array_api.reflected_operators.ArrayWithArrayAPIReflectedOperators">[1]</a>
+</li>
       <li><a href="array/device.html#ivy.array.device.ArrayWithDevice">ArrayWithDevice (class in ivy.array.device)</a>, <a href="array/device/ArrayWithDevice.html#ivy.array.device.ArrayWithDevice">[1]</a>
 </li>
       <li><a href="array/general.html#ivy.array.general.ArrayWithGeneral">ArrayWithGeneral (class in ivy.array.general)</a>, <a href="array/general/ArrayWithGeneral.html#ivy.array.general.ArrayWithGeneral">[1]</a>
 </li>
       <li><a href="array/gradients.html#ivy.array.gradients.ArrayWithGradients">ArrayWithGradients (class in ivy.array.gradients)</a>, <a href="array/gradients/ArrayWithGradients.html#ivy.array.gradients.ArrayWithGradients">[1]</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="array/image.html#ivy.array.image.ArrayWithImage">ArrayWithImage (class in ivy.array.image)</a>, <a href="array/image/ArrayWithImage.html#ivy.array.image.ArrayWithImage">[1]</a>
 </li>
       <li><a href="array/linalg.html#ivy.array.linalg.ArrayWithLinalg">ArrayWithLinalg (class in ivy.array.linalg)</a>, <a href="array/linalg/ArrayWithLinalg.html#ivy.array.linalg.ArrayWithLinalg">[1]</a>
@@ -451,7 +468,7 @@
       </ul></li>
       <li><a href="functional/ivy/core/math.html#ivy.functional.ivy.core.math.asin">asin() (in module ivy.functional.ivy.core.math)</a>, <a href="functional/ivy/core/math/asin.html#ivy.functional.ivy.core.math.asin">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/math.html#ivy.functional.ivy.core.math.asinh">asinh() (in module ivy.functional.ivy.core.math)</a>, <a href="functional/ivy/core/math/asinh.html#ivy.functional.ivy.core.math.asinh">[1]</a>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.asinh">asinh() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/asinh.html#ivy.functional.ivy.array_api.elementwise_functions.asinh">[1]</a>
 </li>
       <li><a href="container.html#ivy.container.Container.assert_contains_sub_container">assert_contains_sub_container() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.assert_contains_sub_container">[1]</a>
 </li>
@@ -509,6 +526,10 @@
       </ul></li>
       <li><a href="functional/ivy/nn/losses.html#ivy.functional.ivy.nn.losses.binary_cross_entropy">binary_cross_entropy() (in module ivy.functional.ivy.nn.losses)</a>, <a href="functional/ivy/nn/losses/binary_cross_entropy.html#ivy.functional.ivy.nn.losses.binary_cross_entropy">[1]</a>
 </li>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.Finfo.bits">bits() (ivy.functional.backends.numpy.array_api.data_type_functions.Finfo property)</a>
+</li>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.bitwise_and">bitwise_and() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/bitwise_and.html#ivy.functional.ivy.array_api.elementwise_functions.bitwise_and">[1]</a>
+</li>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.broadcast_to">broadcast_to() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/broadcast_to.html#ivy.functional.ivy.core.general.broadcast_to">[1]</a>
 </li>
       <li><a href="stateful/module.html#ivy.stateful.module.Module.build">build() (ivy.stateful.module.Module method)</a>, <a href="stateful/module/Module.html#ivy.stateful.module.Module.build">[1]</a>
@@ -556,6 +577,8 @@
       <li><a href="functional/ivy/core/array_builtins.html#ivy.functional.ivy.core.array_builtins.builtin_le">builtin_le() (in module ivy.functional.ivy.core.array_builtins)</a>, <a href="functional/ivy/core/array_builtins/builtin_le.html#ivy.functional.ivy.core.array_builtins.builtin_le">[1]</a>
 </li>
       <li><a href="functional/ivy/core/array_builtins.html#ivy.functional.ivy.core.array_builtins.builtin_lt">builtin_lt() (in module ivy.functional.ivy.core.array_builtins)</a>, <a href="functional/ivy/core/array_builtins/builtin_lt.html#ivy.functional.ivy.core.array_builtins.builtin_lt">[1]</a>
+</li>
+      <li><a href="functional/ivy/core/array_builtins.html#ivy.functional.ivy.core.array_builtins.builtin_matmul">builtin_matmul() (in module ivy.functional.ivy.core.array_builtins)</a>, <a href="functional/ivy/core/array_builtins/builtin_matmul.html#ivy.functional.ivy.core.array_builtins.builtin_matmul">[1]</a>
 </li>
       <li><a href="functional/ivy/core/array_builtins.html#ivy.functional.ivy.core.array_builtins.builtin_mul">builtin_mul() (in module ivy.functional.ivy.core.array_builtins)</a>, <a href="functional/ivy/core/array_builtins/builtin_mul.html#ivy.functional.ivy.core.array_builtins.builtin_mul">[1]</a>
 </li>
@@ -745,10 +768,14 @@
       </ul></li>
       <li><a href="functional/ivy/core/nest.html#ivy.functional.ivy.core.nest.copy_nest">copy_nest() (in module ivy.functional.ivy.core.nest)</a>, <a href="functional/ivy/core/nest/copy_nest.html#ivy.functional.ivy.core.nest.copy_nest">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/math.html#ivy.functional.ivy.core.math.cos">cos() (in module ivy.functional.ivy.core.math)</a>, <a href="functional/ivy/core/math/cos.html#ivy.functional.ivy.core.math.cos">[1]</a>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.cos">cos() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/cos.html#ivy.functional.ivy.array_api.elementwise_functions.cos">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/math.html#ivy.functional.ivy.core.math.cosh">cosh() (in module ivy.functional.ivy.core.math)</a>, <a href="functional/ivy/core/math/cosh.html#ivy.functional.ivy.core.math.cosh">[1]</a>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.cosh">cosh() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/cosh.html#ivy.functional.ivy.array_api.elementwise_functions.cosh">[1]</a>
+
+      <ul>
+        <li><a href="functional/ivy/core/math.html#ivy.functional.ivy.core.math.cosh">(in module ivy.functional.ivy.core.math)</a>, <a href="functional/ivy/core/math/cosh.html#ivy.functional.ivy.core.math.cosh">[1]</a>
 </li>
+      </ul></li>
       <li><a href="graph_compiler/param.html#ivy.graph_compiler.param.Param.count">count() (ivy.graph_compiler.param.Param property)</a>
 </li>
       <li><a href="verbosity.html#ivy.verbosity.cprint">cprint() (in module ivy.verbosity)</a>, <a href="verbosity/cprint.html#ivy.verbosity.cprint">[1]</a>
@@ -945,6 +972,8 @@
 <h2 id="E">E</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="functional/ivy/array_api/constants.html#ivy.functional.ivy.array_api.constants.e">e (in module ivy.functional.ivy.array_api.constants)</a>
+</li>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.einops_rearrange">einops_rearrange() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/einops_rearrange.html#ivy.functional.ivy.core.general.einops_rearrange">[1]</a>
 
       <ul>
@@ -969,14 +998,16 @@
         <li><a href="container.html#ivy.container.Container.einsum">(ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.einsum">[1]</a>
 </li>
       </ul></li>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.Finfo.eps">eps() (ivy.functional.backends.numpy.array_api.data_type_functions.Finfo property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.equal">equal() (in module ivy.functional.backends.numpy.core.general)</a>
 
       <ul>
         <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.equal">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/equal.html#ivy.functional.ivy.core.general.equal">[1]</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="functional/backends/numpy/core/math.html#ivy.functional.backends.numpy.core.math.erf">erf() (in module ivy.functional.backends.numpy.core.math)</a>, <a href="functional/backends/numpy/core/math/erf.html#ivy.functional.backends.numpy.core.math.erf">[1]</a>
 
       <ul>
@@ -1009,15 +1040,21 @@
 </li>
       <li><a href="container.html#ivy.container.Container.find_sub_structure">find_sub_structure() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.find_sub_structure">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/dtype.html#ivy.functional.ivy.core.dtype.finfo">finfo() (in module ivy.functional.ivy.core.dtype)</a>, <a href="functional/ivy/core/dtype/finfo.html#ivy.functional.ivy.core.dtype.finfo">[1]</a>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.Finfo">Finfo (class in ivy.functional.backends.numpy.array_api.data_type_functions)</a>
 </li>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.finfo">finfo() (in module ivy.functional.backends.numpy.array_api.data_type_functions)</a>, <a href="functional/backends/numpy/array_api/data_type_functions/finfo.html#ivy.functional.backends.numpy.array_api.data_type_functions.finfo">[1]</a>
+
+      <ul>
+        <li><a href="functional/ivy/array_api/data_type_functions.html#ivy.functional.ivy.array_api.data_type_functions.finfo">(in module ivy.functional.ivy.array_api.data_type_functions)</a>, <a href="functional/ivy/array_api/data_type_functions/finfo.html#ivy.functional.ivy.array_api.data_type_functions.finfo">[1]</a>
+</li>
+      </ul></li>
       <li><a href="stateful/initializers.html#ivy.stateful.initializers.FirstLayerSiren">FirstLayerSiren (class in ivy.stateful.initializers)</a>, <a href="stateful/initializers/FirstLayerSiren.html#ivy.stateful.initializers.FirstLayerSiren">[1]</a>
 </li>
       <li><a href="container.html#ivy.container.Container.flatten_key_chain">flatten_key_chain() (ivy.container.Container static method)</a>, <a href="container/Container.html#ivy.container.Container.flatten_key_chain">[1]</a>
 </li>
       <li><a href="container.html#ivy.container.Container.flatten_key_chains">flatten_key_chains() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.flatten_key_chains">[1]</a>
 </li>
-      <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.flip">flip() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/flip.html#ivy.functional.backends.numpy.core.general.flip">[1]</a>
+      <li><a href="functional/ivy/array_api/manipulation_functions.html#ivy.functional.ivy.array_api.manipulation_functions.flip">flip() (in module ivy.functional.ivy.array_api.manipulation_functions)</a>, <a href="functional/ivy/array_api/manipulation_functions/flip.html#ivy.functional.ivy.array_api.manipulation_functions.flip">[1]</a>
 
       <ul>
         <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.flip">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/flip.html#ivy.functional.ivy.core.general.flip">[1]</a>
@@ -1183,8 +1220,12 @@
       </ul></li>
       <li><a href="container.html#ivy.container.Container.if_exists">if_exists() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.if_exists">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/dtype.html#ivy.functional.ivy.core.dtype.iinfo">iinfo() (in module ivy.functional.ivy.core.dtype)</a>, <a href="functional/ivy/core/dtype/iinfo.html#ivy.functional.ivy.core.dtype.iinfo">[1]</a>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.iinfo">iinfo() (in module ivy.functional.backends.numpy.array_api.data_type_functions)</a>, <a href="functional/backends/numpy/array_api/data_type_functions/iinfo.html#ivy.functional.backends.numpy.array_api.data_type_functions.iinfo">[1]</a>
+
+      <ul>
+        <li><a href="functional/ivy/array_api/data_type_functions.html#ivy.functional.ivy.array_api.data_type_functions.iinfo">(in module ivy.functional.ivy.array_api.data_type_functions)</a>, <a href="functional/ivy/array_api/data_type_functions/iinfo.html#ivy.functional.ivy.array_api.data_type_functions.iinfo">[1]</a>
 </li>
+      </ul></li>
       <li><a href="graph_compiler/graph.html#ivy.graph_compiler.graph.Graph.include_generators">include_generators() (ivy.graph_compiler.graph.Graph property)</a>
 </li>
       <li><a href="graph_compiler/graph.html#ivy.graph_compiler.graph.Graph.increment_param_count">increment_param_count() (ivy.graph_compiler.graph.Graph method)</a>
@@ -1251,20 +1292,72 @@
         <li><a href="functional/ivy/core/gradients.html#ivy.functional.ivy.core.gradients.is_variable">(in module ivy.functional.ivy.core.gradients)</a>, <a href="functional/ivy/core/gradients/is_variable.html#ivy.functional.ivy.core.gradients.is_variable">[1]</a>
 </li>
       </ul></li>
-      <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.isfinite">isfinite() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/isfinite.html#ivy.functional.backends.numpy.core.general.isfinite">[1]</a>
-
-      <ul>
-        <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.isfinite">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/isfinite.html#ivy.functional.ivy.core.general.isfinite">[1]</a>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.isfinite">isfinite() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/isfinite.html#ivy.functional.ivy.array_api.elementwise_functions.isfinite">[1]</a>
 </li>
-      </ul></li>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.isinf">isinf() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/isinf.html#ivy.functional.ivy.core.general.isinf">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.isnan">isnan() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/isnan.html#ivy.functional.ivy.core.general.isnan">[1]</a>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.isnan">isnan() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/isnan.html#ivy.functional.ivy.array_api.elementwise_functions.isnan">[1]</a>
 </li>
       <li><a href="functional/ivy/core/device.html#ivy.functional.ivy.core.device.MultiDevItem.items">items() (ivy.functional.ivy.core.device.MultiDevItem method)</a>, <a href="functional/ivy/core/device/MultiDevItem.html#ivy.functional.ivy.core.device.MultiDevItem.items">[1]</a>
 </li>
       <li><a href="container.html#ivy.container.Container.ivy">ivy() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.ivy">[1]</a>
 </li>
+      <li>
+    ivy.array.array_api
+
+      <ul>
+        <li><a href="array/array_api.html#module-ivy.array.array_api">module</a>
+</li>
+      </ul></li>
+      <li>
+    ivy.array.array_api.arithmetic_operators
+
+      <ul>
+        <li><a href="array/array_api/arithmetic_operators.html#module-ivy.array.array_api.arithmetic_operators">module</a>
+</li>
+      </ul></li>
+      <li>
+    ivy.array.array_api.array_operators
+
+      <ul>
+        <li><a href="array/array_api/array_operators.html#module-ivy.array.array_api.array_operators">module</a>
+</li>
+      </ul></li>
+      <li>
+    ivy.array.array_api.attributes
+
+      <ul>
+        <li><a href="array/array_api/attributes.html#module-ivy.array.array_api.attributes">module</a>
+</li>
+      </ul></li>
+      <li>
+    ivy.array.array_api.bitwise_operators
+
+      <ul>
+        <li><a href="array/array_api/bitwise_operators.html#module-ivy.array.array_api.bitwise_operators">module</a>
+</li>
+      </ul></li>
+      <li>
+    ivy.array.array_api.comparison_operators
+
+      <ul>
+        <li><a href="array/array_api/comparison_operators.html#module-ivy.array.array_api.comparison_operators">module</a>
+</li>
+      </ul></li>
+      <li>
+    ivy.array.array_api.inplace_operators
+
+      <ul>
+        <li><a href="array/array_api/inplace_operators.html#module-ivy.array.array_api.inplace_operators">module</a>
+</li>
+      </ul></li>
+      <li>
+    ivy.array.array_api.reflected_operators
+
+      <ul>
+        <li><a href="array/array_api/reflected_operators.html#module-ivy.array.array_api.reflected_operators">module</a>
+</li>
+      </ul></li>
       <li>
     ivy.array.conversions
 
@@ -1378,13 +1471,6 @@
 </li>
       </ul></li>
       <li>
-    ivy.functional.backends.numpy.array_api
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api.html#module-ivy.functional.backends.numpy.array_api">module</a>
-</li>
-      </ul></li>
-      <li>
     ivy.functional.backends.numpy.array_api.constants
 
       <ul>
@@ -1410,76 +1496,6 @@
 
       <ul>
         <li><a href="functional/backends/numpy/array_api/data_types.html#module-ivy.functional.backends.numpy.array_api.data_types">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.elementwise_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/elementwise_functions.html#module-ivy.functional.backends.numpy.array_api.elementwise_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.function_and_method_signatures
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/function_and_method_signatures.html#module-ivy.functional.backends.numpy.array_api.function_and_method_signatures">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.linear_algebra_extension
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/linear_algebra_extension.html#module-ivy.functional.backends.numpy.array_api.linear_algebra_extension">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.linear_algebra_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/linear_algebra_functions.html#module-ivy.functional.backends.numpy.array_api.linear_algebra_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.manipulation_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/manipulation_functions.html#module-ivy.functional.backends.numpy.array_api.manipulation_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.searching_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/searching_functions.html#module-ivy.functional.backends.numpy.array_api.searching_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.set_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/set_functions.html#module-ivy.functional.backends.numpy.array_api.set_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.sorting_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/sorting_functions.html#module-ivy.functional.backends.numpy.array_api.sorting_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.statistical_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/statistical_functions.html#module-ivy.functional.backends.numpy.array_api.statistical_functions">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.backends.numpy.array_api.utility_functions
-
-      <ul>
-        <li><a href="functional/backends/numpy/array_api/utility_functions.html#module-ivy.functional.backends.numpy.array_api.utility_functions">module</a>
 </li>
       </ul></li>
       <li>
@@ -1511,14 +1527,12 @@
 </li>
       </ul></li>
       <li>
-    ivy.functional.backends.numpy.core.linalg
+    ivy.functional.backends.numpy.core.linear_algebra
 
       <ul>
-        <li><a href="functional/backends/numpy/core/linalg.html#module-ivy.functional.backends.numpy.core.linalg">module</a>
+        <li><a href="functional/backends/numpy/core/linear_algebra.html#module-ivy.functional.backends.numpy.core.linear_algebra">module</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     ivy.functional.backends.numpy.core.logic
 
@@ -1526,6 +1540,8 @@
         <li><a href="functional/backends/numpy/core/logic.html#module-ivy.functional.backends.numpy.core.logic">module</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     ivy.functional.backends.numpy.core.math
 
@@ -1597,17 +1613,10 @@
 </li>
       </ul></li>
       <li>
-    ivy.functional.ivy.array_api.linear_algebra_extension
+    ivy.functional.ivy.array_api.linear_algebra
 
       <ul>
-        <li><a href="functional/ivy/array_api/linear_algebra_extension.html#module-ivy.functional.ivy.array_api.linear_algebra_extension">module</a>
-</li>
-      </ul></li>
-      <li>
-    ivy.functional.ivy.array_api.linear_algebra_functions
-
-      <ul>
-        <li><a href="functional/ivy/array_api/linear_algebra_functions.html#module-ivy.functional.ivy.array_api.linear_algebra_functions">module</a>
+        <li><a href="functional/ivy/array_api/linear_algebra.html#module-ivy.functional.ivy.array_api.linear_algebra">module</a>
 </li>
       </ul></li>
       <li>
@@ -1938,6 +1947,8 @@
 </li>
       <li><a href="functional/ivy/nn/activations.html#ivy.functional.ivy.nn.activations.leaky_relu">leaky_relu() (in module ivy.functional.ivy.nn.activations)</a>, <a href="functional/ivy/nn/activations/leaky_relu.html#ivy.functional.ivy.nn.activations.leaky_relu">[1]</a>
 </li>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.less">less() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/less.html#ivy.functional.ivy.array_api.elementwise_functions.less">[1]</a>
+</li>
       <li><a href="stateful/layers.html#ivy.stateful.layers.Linear">Linear (class in ivy.stateful.layers)</a>, <a href="stateful/layers/Linear.html#ivy.stateful.layers.Linear">[1]</a>
 </li>
       <li><a href="functional/ivy/nn/layers.html#ivy.functional.ivy.nn.layers.linear">linear() (in module ivy.functional.ivy.nn.layers)</a>, <a href="functional/ivy/nn/layers/linear.html#ivy.functional.ivy.nn.layers.linear">[1]</a>
@@ -1970,7 +1981,7 @@
 </li>
       <li><a href="functional/ivy/core/logic.html#ivy.functional.ivy.core.logic.logical_and">logical_and() (in module ivy.functional.ivy.core.logic)</a>, <a href="functional/ivy/core/logic/logical_and.html#ivy.functional.ivy.core.logic.logical_and">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/logic.html#ivy.functional.ivy.core.logic.logical_not">logical_not() (in module ivy.functional.ivy.core.logic)</a>, <a href="functional/ivy/core/logic/logical_not.html#ivy.functional.ivy.core.logic.logical_not">[1]</a>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.logical_not">logical_not() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/logical_not.html#ivy.functional.ivy.array_api.elementwise_functions.logical_not">[1]</a>
 </li>
       <li><a href="functional/ivy/core/logic.html#ivy.functional.ivy.core.logic.logical_or">logical_or() (in module ivy.functional.ivy.core.logic)</a>, <a href="functional/ivy/core/logic/logical_or.html#ivy.functional.ivy.core.logic.logical_or">[1]</a>
 </li>
@@ -2016,7 +2027,7 @@
         <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.matmul">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/matmul.html#ivy.functional.ivy.core.general.matmul">[1]</a>
 </li>
       </ul></li>
-      <li><a href="functional/backends/numpy/core/linalg.html#ivy.functional.backends.numpy.core.linalg.matrix_norm">matrix_norm() (in module ivy.functional.backends.numpy.core.linalg)</a>, <a href="functional/backends/numpy/core/linalg/matrix_norm.html#ivy.functional.backends.numpy.core.linalg.matrix_norm">[1]</a>
+      <li><a href="functional/backends/numpy/core/linear_algebra.html#ivy.functional.backends.numpy.core.linear_algebra.matrix_norm">matrix_norm() (in module ivy.functional.backends.numpy.core.linear_algebra)</a>, <a href="functional/backends/numpy/core/linear_algebra/matrix_norm.html#ivy.functional.backends.numpy.core.linear_algebra.matrix_norm">[1]</a>
 
       <ul>
         <li><a href="functional/ivy/core/linalg.html#ivy.functional.ivy.core.linalg.matrix_norm">(in module ivy.functional.ivy.core.linalg)</a>, <a href="functional/ivy/core/linalg/matrix_norm.html#ivy.functional.ivy.core.linalg.matrix_norm">[1]</a>
@@ -2024,6 +2035,8 @@
         <li><a href="container.html#ivy.container.Container.matrix_norm">(ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.matrix_norm">[1]</a>
 </li>
       </ul></li>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.Finfo.max">max() (ivy.functional.backends.numpy.array_api.data_type_functions.Finfo property)</a>
+</li>
       <li><a href="container.html#ivy.container.Container.max_depth">max_depth() (ivy.container.Container property)</a>, <a href="container/Container.html#ivy.container.Container.max_depth">[1]</a>
 </li>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.maximum">maximum() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/maximum.html#ivy.functional.ivy.core.general.maximum">[1]</a>
@@ -2038,6 +2051,8 @@
         <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.meshgrid">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/meshgrid.html#ivy.functional.ivy.core.general.meshgrid">[1]</a>
 </li>
       </ul></li>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.Finfo.min">min() (ivy.functional.backends.numpy.array_api.data_type_functions.Finfo property)</a>
+</li>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.minimum">minimum() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/minimum.html#ivy.functional.ivy.core.general.minimum">[1]</a>
 
       <ul>
@@ -2054,6 +2069,22 @@
     module
 
       <ul>
+        <li><a href="array/array_api.html#module-ivy.array.array_api">ivy.array.array_api</a>
+</li>
+        <li><a href="array/array_api/arithmetic_operators.html#module-ivy.array.array_api.arithmetic_operators">ivy.array.array_api.arithmetic_operators</a>
+</li>
+        <li><a href="array/array_api/array_operators.html#module-ivy.array.array_api.array_operators">ivy.array.array_api.array_operators</a>
+</li>
+        <li><a href="array/array_api/attributes.html#module-ivy.array.array_api.attributes">ivy.array.array_api.attributes</a>
+</li>
+        <li><a href="array/array_api/bitwise_operators.html#module-ivy.array.array_api.bitwise_operators">ivy.array.array_api.bitwise_operators</a>
+</li>
+        <li><a href="array/array_api/comparison_operators.html#module-ivy.array.array_api.comparison_operators">ivy.array.array_api.comparison_operators</a>
+</li>
+        <li><a href="array/array_api/inplace_operators.html#module-ivy.array.array_api.inplace_operators">ivy.array.array_api.inplace_operators</a>
+</li>
+        <li><a href="array/array_api/reflected_operators.html#module-ivy.array.array_api.reflected_operators">ivy.array.array_api.reflected_operators</a>
+</li>
         <li><a href="array/conversions.html#module-ivy.array.conversions">ivy.array.conversions</a>
 </li>
         <li><a href="array/device.html#module-ivy.array.device">ivy.array.device</a>
@@ -2086,8 +2117,6 @@
 </li>
         <li><a href="functional/backends.html#module-ivy.functional.backends">ivy.functional.backends</a>
 </li>
-        <li><a href="functional/backends/numpy/array_api.html#module-ivy.functional.backends.numpy.array_api">ivy.functional.backends.numpy.array_api</a>
-</li>
         <li><a href="functional/backends/numpy/array_api/constants.html#module-ivy.functional.backends.numpy.array_api.constants">ivy.functional.backends.numpy.array_api.constants</a>
 </li>
         <li><a href="functional/backends/numpy/array_api/creation_functions.html#module-ivy.functional.backends.numpy.array_api.creation_functions">ivy.functional.backends.numpy.array_api.creation_functions</a>
@@ -2095,26 +2124,6 @@
         <li><a href="functional/backends/numpy/array_api/data_type_functions.html#module-ivy.functional.backends.numpy.array_api.data_type_functions">ivy.functional.backends.numpy.array_api.data_type_functions</a>
 </li>
         <li><a href="functional/backends/numpy/array_api/data_types.html#module-ivy.functional.backends.numpy.array_api.data_types">ivy.functional.backends.numpy.array_api.data_types</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/elementwise_functions.html#module-ivy.functional.backends.numpy.array_api.elementwise_functions">ivy.functional.backends.numpy.array_api.elementwise_functions</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/function_and_method_signatures.html#module-ivy.functional.backends.numpy.array_api.function_and_method_signatures">ivy.functional.backends.numpy.array_api.function_and_method_signatures</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/linear_algebra_extension.html#module-ivy.functional.backends.numpy.array_api.linear_algebra_extension">ivy.functional.backends.numpy.array_api.linear_algebra_extension</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/linear_algebra_functions.html#module-ivy.functional.backends.numpy.array_api.linear_algebra_functions">ivy.functional.backends.numpy.array_api.linear_algebra_functions</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/manipulation_functions.html#module-ivy.functional.backends.numpy.array_api.manipulation_functions">ivy.functional.backends.numpy.array_api.manipulation_functions</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/searching_functions.html#module-ivy.functional.backends.numpy.array_api.searching_functions">ivy.functional.backends.numpy.array_api.searching_functions</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/set_functions.html#module-ivy.functional.backends.numpy.array_api.set_functions">ivy.functional.backends.numpy.array_api.set_functions</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/sorting_functions.html#module-ivy.functional.backends.numpy.array_api.sorting_functions">ivy.functional.backends.numpy.array_api.sorting_functions</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/statistical_functions.html#module-ivy.functional.backends.numpy.array_api.statistical_functions">ivy.functional.backends.numpy.array_api.statistical_functions</a>
-</li>
-        <li><a href="functional/backends/numpy/array_api/utility_functions.html#module-ivy.functional.backends.numpy.array_api.utility_functions">ivy.functional.backends.numpy.array_api.utility_functions</a>
 </li>
         <li><a href="functional/backends/numpy/core/device.html#module-ivy.functional.backends.numpy.core.device">ivy.functional.backends.numpy.core.device</a>
 </li>
@@ -2124,7 +2133,7 @@
 </li>
         <li><a href="functional/backends/numpy/core/image.html#module-ivy.functional.backends.numpy.core.image">ivy.functional.backends.numpy.core.image</a>
 </li>
-        <li><a href="functional/backends/numpy/core/linalg.html#module-ivy.functional.backends.numpy.core.linalg">ivy.functional.backends.numpy.core.linalg</a>
+        <li><a href="functional/backends/numpy/core/linear_algebra.html#module-ivy.functional.backends.numpy.core.linear_algebra">ivy.functional.backends.numpy.core.linear_algebra</a>
 </li>
         <li><a href="functional/backends/numpy/core/logic.html#module-ivy.functional.backends.numpy.core.logic">ivy.functional.backends.numpy.core.logic</a>
 </li>
@@ -2148,9 +2157,7 @@
 </li>
         <li><a href="functional/ivy/array_api/function_and_method_signatures.html#module-ivy.functional.ivy.array_api.function_and_method_signatures">ivy.functional.ivy.array_api.function_and_method_signatures</a>
 </li>
-        <li><a href="functional/ivy/array_api/linear_algebra_extension.html#module-ivy.functional.ivy.array_api.linear_algebra_extension">ivy.functional.ivy.array_api.linear_algebra_extension</a>
-</li>
-        <li><a href="functional/ivy/array_api/linear_algebra_functions.html#module-ivy.functional.ivy.array_api.linear_algebra_functions">ivy.functional.ivy.array_api.linear_algebra_functions</a>
+        <li><a href="functional/ivy/array_api/linear_algebra.html#module-ivy.functional.ivy.array_api.linear_algebra">ivy.functional.ivy.array_api.linear_algebra</a>
 </li>
         <li><a href="functional/ivy/array_api/manipulation_functions.html#module-ivy.functional.ivy.array_api.manipulation_functions">ivy.functional.ivy.array_api.manipulation_functions</a>
 </li>
@@ -2277,16 +2284,18 @@
 <h2 id="N">N</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="functional/ivy/array_api/constants.html#ivy.functional.ivy.array_api.constants.nan">nan (in module ivy.functional.ivy.array_api.constants)</a>
+</li>
       <li><a href="functional/ivy/core/nest.html#ivy.functional.ivy.core.nest.nested_indices_where">nested_indices_where() (in module ivy.functional.ivy.core.nest)</a>, <a href="functional/ivy/core/nest/nested_indices_where.html#ivy.functional.ivy.core.nest.nested_indices_where">[1]</a>
 </li>
       <li><a href="functional/ivy/core/nest.html#ivy.functional.ivy.core.nest.nested_map">nested_map() (in module ivy.functional.ivy.core.nest)</a>, <a href="functional/ivy/core/nest/nested_map.html#ivy.functional.ivy.core.nest.nested_map">[1]</a>
 </li>
       <li><a href="container.html#ivy.container.Container.num_arrays">num_arrays() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.num_arrays">[1]</a>
 </li>
-      <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.num_arrays_in_memory">num_arrays_in_memory() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/num_arrays_in_memory.html#ivy.functional.ivy.core.general.num_arrays_in_memory">[1]</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.num_arrays_in_memory">num_arrays_in_memory() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/num_arrays_in_memory.html#ivy.functional.ivy.core.general.num_arrays_in_memory">[1]</a>
+</li>
       <li><a href="functional/ivy/core/device.html#ivy.functional.ivy.core.device.num_arrays_on_dev">num_arrays_on_dev() (in module ivy.functional.ivy.core.device)</a>, <a href="functional/ivy/core/device/num_arrays_on_dev.html#ivy.functional.ivy.core.device.num_arrays_on_dev">[1]</a>
 </li>
       <li><a href="functional/ivy/core/device.html#ivy.functional.ivy.core.device.num_cpu_cores">num_cpu_cores() (in module ivy.functional.ivy.core.device)</a>, <a href="functional/ivy/core/device/num_cpu_cores.html#ivy.functional.ivy.core.device.num_cpu_cores">[1]</a>
@@ -2311,9 +2320,11 @@
       </ul></li>
       <li><a href="stateful/initializers.html#ivy.stateful.initializers.Ones">Ones (class in ivy.stateful.initializers)</a>, <a href="stateful/initializers/Ones.html#ivy.stateful.initializers.Ones">[1]</a>
 </li>
-      <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.ones">ones() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/ones.html#ivy.functional.backends.numpy.core.general.ones">[1]</a>
+      <li><a href="functional/backends/numpy/array_api/creation_functions.html#ivy.functional.backends.numpy.array_api.creation_functions.ones">ones() (in module ivy.functional.backends.numpy.array_api.creation_functions)</a>, <a href="functional/backends/numpy/array_api/creation_functions/ones.html#ivy.functional.backends.numpy.array_api.creation_functions.ones">[1]</a>
 
       <ul>
+        <li><a href="functional/ivy/array_api/creation_functions.html#ivy.functional.ivy.array_api.creation_functions.ones">(in module ivy.functional.ivy.array_api.creation_functions)</a>, <a href="functional/ivy/array_api/creation_functions/ones.html#ivy.functional.ivy.array_api.creation_functions.ones">[1]</a>
+</li>
         <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.ones">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/ones.html#ivy.functional.ivy.core.general.ones">[1]</a>
 </li>
       </ul></li>
@@ -2344,6 +2355,8 @@
       <li><a href="graph_compiler/graph.html#ivy.graph_compiler.graph.Graph.params_all_empty">params_all_empty() (ivy.graph_compiler.graph.Graph method)</a>
 </li>
       <li><a href="functional/ivy/core/device.html#ivy.functional.ivy.core.device.percent_used_mem_on_dev">percent_used_mem_on_dev() (in module ivy.functional.ivy.core.device)</a>, <a href="functional/ivy/core/device/percent_used_mem_on_dev.html#ivy.functional.ivy.core.device.percent_used_mem_on_dev">[1]</a>
+</li>
+      <li><a href="functional/ivy/array_api/constants.html#ivy.functional.ivy.array_api.constants.pi">pi (in module ivy.functional.ivy.array_api.constants)</a>
 </li>
       <li><a href="functional/ivy/core/linalg.html#ivy.functional.ivy.core.linalg.pinv">pinv() (in module ivy.functional.ivy.core.linalg)</a>, <a href="functional/ivy/core/linalg/pinv.html#ivy.functional.ivy.core.linalg.pinv">[1]</a>
 </li>
@@ -2378,6 +2391,14 @@
 
 <h2 id="Q">Q</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="functional/backends/numpy/core/linear_algebra.html#ivy.functional.backends.numpy.core.linear_algebra.qr">qr() (in module ivy.functional.backends.numpy.core.linear_algebra)</a>, <a href="functional/backends/numpy/core/linear_algebra/qr.html#ivy.functional.backends.numpy.core.linear_algebra.qr">[1]</a>
+
+      <ul>
+        <li><a href="functional/ivy/core/linalg.html#ivy.functional.ivy.core.linalg.qr">(in module ivy.functional.ivy.core.linalg)</a>, <a href="functional/ivy/core/linalg/qr.html#ivy.functional.ivy.core.linalg.qr">[1]</a>
+</li>
+      </ul></li>
+  </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.queue_timeout">queue_timeout() (in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/queue_timeout.html#ivy.functional.ivy.core.general.queue_timeout">[1]</a>
 </li>
@@ -2649,6 +2670,8 @@
 </li>
       <li><a href="container.html#ivy.container.Container.slice_via_key">slice_via_key() (ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.slice_via_key">[1]</a>
 </li>
+      <li><a href="functional/backends/numpy/array_api/data_type_functions.html#ivy.functional.backends.numpy.array_api.data_type_functions.Finfo.smallest_normal">smallest_normal() (ivy.functional.backends.numpy.array_api.data_type_functions.Finfo property)</a>
+</li>
       <li><a href="functional/ivy/nn/activations.html#ivy.functional.ivy.nn.activations.softmax">softmax() (in module ivy.functional.ivy.nn.activations)</a>, <a href="functional/ivy/nn/activations/softmax.html#ivy.functional.ivy.nn.activations.softmax">[1]</a>
 </li>
       <li><a href="functional/ivy/nn/activations.html#ivy.functional.ivy.nn.activations.softplus">softplus() (in module ivy.functional.ivy.nn.activations)</a>, <a href="functional/ivy/nn/activations/softplus.html#ivy.functional.ivy.nn.activations.softplus">[1]</a>
@@ -2670,6 +2693,8 @@
       <li><a href="functional/ivy/core/multi_node.html#ivy.functional.ivy.core.multi_node.split_factors">split_factors (in module ivy.functional.ivy.core.multi_node)</a>
 </li>
       <li><a href="functional/ivy/core/device.html#ivy.functional.ivy.core.device.split_func_call">split_func_call() (in module ivy.functional.ivy.core.device)</a>, <a href="functional/ivy/core/device/split_func_call.html#ivy.functional.ivy.core.device.split_func_call">[1]</a>
+</li>
+      <li><a href="functional/ivy/array_api/elementwise_functions.html#ivy.functional.ivy.array_api.elementwise_functions.sqrt">sqrt() (in module ivy.functional.ivy.array_api.elementwise_functions)</a>, <a href="functional/ivy/array_api/elementwise_functions/sqrt.html#ivy.functional.ivy.array_api.elementwise_functions.sqrt">[1]</a>
 </li>
       <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.squeeze">squeeze() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/squeeze.html#ivy.functional.backends.numpy.core.general.squeeze">[1]</a>
 
@@ -2933,13 +2958,13 @@
         <li><a href="functional/ivy/core/gradients.html#ivy.functional.ivy.core.gradients.variable_data">(in module ivy.functional.ivy.core.gradients)</a>, <a href="functional/ivy/core/gradients/variable_data.html#ivy.functional.ivy.core.gradients.variable_data">[1]</a>
 </li>
       </ul></li>
-      <li><a href="functional/ivy/core/linalg.html#ivy.functional.ivy.core.linalg.vector_norm">vector_norm() (in module ivy.functional.ivy.core.linalg)</a>, <a href="functional/ivy/core/linalg/vector_norm.html#ivy.functional.ivy.core.linalg.vector_norm">[1]</a>
+      <li><a href="functional/ivy/array_api/linear_algebra.html#ivy.functional.ivy.array_api.linear_algebra.vector_norm">vector_norm() (in module ivy.functional.ivy.array_api.linear_algebra)</a>, <a href="functional/ivy/array_api/linear_algebra/vector_norm.html#ivy.functional.ivy.array_api.linear_algebra.vector_norm">[1]</a>
 
       <ul>
         <li><a href="container.html#ivy.container.Container.vector_norm">(ivy.container.Container method)</a>, <a href="container/Container.html#ivy.container.Container.vector_norm">[1]</a>
 </li>
       </ul></li>
-      <li><a href="functional/backends/numpy/core/linalg.html#ivy.functional.backends.numpy.core.linalg.vector_to_skew_symmetric_matrix">vector_to_skew_symmetric_matrix() (in module ivy.functional.backends.numpy.core.linalg)</a>, <a href="functional/backends/numpy/core/linalg/vector_to_skew_symmetric_matrix.html#ivy.functional.backends.numpy.core.linalg.vector_to_skew_symmetric_matrix">[1]</a>
+      <li><a href="functional/backends/numpy/core/linear_algebra.html#ivy.functional.backends.numpy.core.linear_algebra.vector_to_skew_symmetric_matrix">vector_to_skew_symmetric_matrix() (in module ivy.functional.backends.numpy.core.linear_algebra)</a>, <a href="functional/backends/numpy/core/linear_algebra/vector_to_skew_symmetric_matrix.html#ivy.functional.backends.numpy.core.linear_algebra.vector_to_skew_symmetric_matrix">[1]</a>
 
       <ul>
         <li><a href="functional/ivy/core/linalg.html#ivy.functional.ivy.core.linalg.vector_to_skew_symmetric_matrix">(in module ivy.functional.ivy.core.linalg)</a>, <a href="functional/ivy/core/linalg/vector_to_skew_symmetric_matrix.html#ivy.functional.ivy.core.linalg.vector_to_skew_symmetric_matrix">[1]</a>
@@ -2993,10 +3018,10 @@
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.zeros">zeros() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/zeros.html#ivy.functional.backends.numpy.core.general.zeros">[1]</a>
+      <li><a href="functional/backends/numpy/array_api/creation_functions.html#ivy.functional.backends.numpy.array_api.creation_functions.zeros">zeros() (in module ivy.functional.backends.numpy.array_api.creation_functions)</a>, <a href="functional/backends/numpy/array_api/creation_functions/zeros.html#ivy.functional.backends.numpy.array_api.creation_functions.zeros">[1]</a>
 
       <ul>
-        <li><a href="functional/ivy/core/general.html#ivy.functional.ivy.core.general.zeros">(in module ivy.functional.ivy.core.general)</a>, <a href="functional/ivy/core/general/zeros.html#ivy.functional.ivy.core.general.zeros">[1]</a>
+        <li><a href="functional/ivy/array_api/creation_functions.html#ivy.functional.ivy.array_api.creation_functions.zeros">(in module ivy.functional.ivy.array_api.creation_functions)</a>, <a href="functional/ivy/array_api/creation_functions/zeros.html#ivy.functional.ivy.array_api.creation_functions.zeros">[1]</a>
 </li>
       </ul></li>
       <li><a href="functional/backends/numpy/core/general.html#ivy.functional.backends.numpy.core.general.zeros_like">zeros_like() (in module ivy.functional.backends.numpy.core.general)</a>, <a href="functional/backends/numpy/core/general/zeros_like.html#ivy.functional.backends.numpy.core.general.zeros_like">[1]</a>
