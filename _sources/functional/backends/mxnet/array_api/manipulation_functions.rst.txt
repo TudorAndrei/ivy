@@ -13,5 +13,4 @@ Manipulation functions
    :caption: Manipulation functions
 
    manipulation_functions/flip.rst
-   manipulation_functions/squeeze.rst
 

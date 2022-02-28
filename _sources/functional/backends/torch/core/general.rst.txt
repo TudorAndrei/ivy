@@ -53,6 +53,7 @@ General
    general/isinf.rst
    general/reshape.rst
    general/broadcast_to.rst
+   general/squeeze.rst
    general/zeros_like.rst
    general/full.rst
    general/ones_like.rst
