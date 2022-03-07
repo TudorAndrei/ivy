@@ -34,7 +34,6 @@ General
    general/round.rst
    general/floormod.rst
    general/floor.rst
-   general/ceil.rst
    general/abs.rst
    general/argmax.rst
    general/argmin.rst
@@ -42,7 +41,6 @@ General
    general/linspace.rst
    general/logspace.rst
    general/concatenate.rst
-   general/flip.rst
    general/stack.rst
    general/unstack.rst
    general/split.rst
@@ -61,6 +59,7 @@ General
    general/has_nans.rst
    general/reshape.rst
    general/broadcast_to.rst
+   general/squeeze.rst
    general/zeros_like.rst
    general/ones.rst
    general/ones_like.rst
